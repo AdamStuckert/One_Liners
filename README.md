@@ -7,6 +7,15 @@ wget -r --user USERNAME --password PASSWORD LINK
 
 LFTP:
 
+FTP:
+```bash
+ftp
+open $link
+# to pull data:
+get $FILE
+to push data:
+put $FILE
+```
 
 Upload reads to ENA:
 ```bash
