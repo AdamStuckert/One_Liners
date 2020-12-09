@@ -7,6 +7,15 @@ wget -r --user USERNAME --password PASSWORD LINK
 
 LFTP:
 
+```bash
+lftp adam.stuckert@unh.edu@ftp.box.com
+# put will place files
+# ls lists directory in remote
+# !ls lists directory in local
+# lcd changes directory in local
+# cd changes directory in remote
+```
+
 FTP:
 ```bash
 ftp
